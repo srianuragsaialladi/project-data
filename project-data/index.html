@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+      .content-start {
+        margin-top: 50px;
+      }
+    </style>
+    <script>
+      $(document).ready(() => {
+        $.ajax({url: "data.json"}).done((res) => {
+          if (res) {
+            res.forEach(r => {
+              $('.card-start').append(`
+              <div class="col-md-4 mb-5">
+                <div class="card h-100" style="border:none;">
+                  <img class="card-img-top" src="${r.image}" alt="" style="height:250px">
+                  <div class="card-body" style="background: #383838;">
+                    <a href="${r.path}" style="color:#FFF;text-decoration:none;">
+                      <h4 class="card-title" style="text-align:center;">${r.title}</h4>
+                      <p class="card-text">${r.desc}</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              `);
+            })
+          }
+        });
+      });
+    </script>
+  </head>
+  <body style="background-image: linear-gradient(45deg,#000000db, #666);background-image: -webkit-linear-gradient(45deg,#000000db, #666)">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#402b5e;height:60px;">
+      <a class="navbar-brand" href="#" style="font-weight: bold;">Code Insights</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <span class="navbar-text">
+          <a class="nav-link" href="http://vpce-04dfcdc5bb6a01003-omwlpgbv.vpce-svc-04b17d08399fe0338.us-west-2.vpce.amazonaws.com:443" target="_blank">SonarQube</a>
+        </span>
+      </div>
+    </nav>
+    <h4 style="text-align: center;margin: 25px;color: #FFF;">Products</h4>
+    <div class="container content-start">
+      <div class="row card-start">
+      </div>
+    </div>
+    <footer>
+      <div class="xright" style="text-align: center;color: #FFF;">
+        Copyright &#169;      2020.All rights reserved.
+      </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </footer>
+  </body>
+</html>

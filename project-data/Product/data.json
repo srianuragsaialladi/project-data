@@ -1,0 +1,53 @@
+{
+  "title": "AppConfig",
+  "titleDesc": "AppConfig, the centralized configuration management system. Each product can contain one or more modules.",
+  "childTitle": "Project Modules",
+  "childTitleDesc": "This project has the following modules:",
+  "navigation": [
+    {
+      "title": "app-config-server",
+      "level": "1",
+      "path": "app-config-server/index.html",
+      "active": false,
+      "desc": "app config server module Desc",
+      "children": [{
+        "title": "release-v1",
+        "level": "2",
+        "path": "app-config-server/feature-automation/index.html",
+        "active": false,
+        "children": [{
+          "title": "1",
+          "level": "3",
+          "path": "app-config-server/feature-automation/1/index.html",
+          "active": false,
+          "children": []
+        }, {
+          "title": "2",
+          "level": "3",
+          "path": "",
+          "active": false,
+          "children": []
+        }]
+      }, {
+        "title": "master",
+        "level": "2",
+        "path": "",
+        "active": false,
+        "children": []
+      }, {
+        "title": "develop",
+        "level": "2",
+        "path": "",
+        "active": false,
+        "children": []
+      }]
+    }, {
+      "title": "app-config-admin",
+      "level": "1",
+      "path": "app-config-admin/index.html",
+      "active": false,
+      "desc": "app config admin module Desc",
+      "children": []
+    }
+  ]
+}

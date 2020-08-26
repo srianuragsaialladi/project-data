@@ -1,0 +1,33 @@
+[
+  {
+    "title": "App Config",
+    "desc": "AppConfig, the centralized configuration management system. Each product can contain one or more modules.",
+    "path": "AppConfig",
+    "image": "ap_grey.png"
+  }, {
+    "title": "PDM",
+    "desc": "Product Data Management description. Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "path": "AppConfig",
+    "image": "pdm_grey2.png"
+  }, {
+    "title": "RDM",
+    "desc": "RDM description. Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "path": "AppConfig",
+    "image": "rdm_grey.png"
+  }, {
+    "title": "Triggers",
+    "desc": "Triggers description. Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "path": "AppConfig",
+    "image": "trigger_grey.png"
+  }, {
+    "title": "Case",
+    "desc": "Case description. Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "path": "AppConfig",
+    "image": "case_grey.png"
+  }, {
+    "title": "Service Central",
+    "desc": "Service Central description. Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "path": "AppConfig",
+    "image": "sc_grey.png"
+  }
+]

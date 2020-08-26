@@ -1,0 +1,18 @@
+{
+  "title": "release-v1",
+  "titleDesc": "release-v1 branch Description",
+  "childTitle": "Project Build Numbers",
+  "childTitleDesc": "This branch has the following build numbers:",
+  "navigation": [
+    {
+      "title": "1",
+      "path": "1/index.html",
+      "desc": "1 build Desc"
+    },
+    {
+      "title": "2",
+      "path": "",
+      "desc": "2 build Desc"
+    }
+  ]
+}

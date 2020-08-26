@@ -1,0 +1,227 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+ body {
+  padding: 0px 0px 10px 0px;
+}
+body, td, select, input, li{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+code{
+  font-family: Courier, monospace;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color:#b885ea;
+}
+a:visited  {
+  color:#b885ea;
+}
+a:active, a:hover {
+  color: #b885ea;
+  text-decoration: underline;
+}
+#legend li.externalLink {
+  background: url(../images/external.png) left top no-repeat;
+  padding-left: 18px;
+}
+a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
+  background: url(../images/external.png) right center no-repeat;
+  color: #b885ea;
+  text-decoration: underline;
+  padding-right: 18px;
+}
+#legend li.newWindow {
+  background: url(../images/newwindow.png) left top no-repeat;
+  padding-left: 18px;
+}
+a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWindow:hover {
+  background: url(../images/newwindow.png) right center no-repeat;
+  padding-right: 18px;
+}
+h2 {
+  padding: 4px 4px 4px 6px;
+  color: #FFF;
+  background-color: #53019d;
+  font-weight:900;
+  font-size: large;
+}
+h3 {
+  padding: 4px 4px 4px 6px;
+  color: #FFF;
+  background-color: #53019d;
+  font-weight: normal;
+  font-size: large;
+}
+h4 {
+  padding: 4px 4px 4px 6px;
+  color: #FFF;
+  background-color: #53019d;
+  font-weight: normal;
+  font-size: large;
+}
+h5 {
+  padding: 4px 4px 4px 6px;
+  color: #333333;
+  font-size: medium;
+}
+p {
+  line-height: 1.3em;
+  font-size: small;
+}
+#breadcrumbs {
+  /* border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3; */
+  background-image: linear-gradient(45deg,#353535, #666);
+  background-image: -webkit-linear-gradient(45deg,#353535, #666);
+  color: #FFF;
+}
+#leftColumn {
+  /* margin: 10px 0 0 5px; */
+  background: #402b5e;
+  /* border: 1px solid #e3e3e3;
+  background-color: #f7f7f7; */
+  padding-bottom: 3px; /* IE-9 scrollbar-fix */
+}
+#navcolumn h5 {
+  font-size: small;
+  border-bottom: 1px solid #e3e3e3;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #FFF;
+}
+
+table.bodyTable th {
+  color: white;
+  background-color: #f7f7f7;
+  color: #333333;
+
+  box-sizing: border-box;
+  vertical-align:middle;
+  cursor: pointer;
+  /*padding-left: 25px;*/
+  padding-right: 25px;
+  height: 60px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px !important;
+  line-height: 1.06667;
+  /*font-weight: 300;*/
+  letter-spacing: 0em;
+  font-family: "SF UI Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+table.bodyTable th, table.bodyTable td {
+  font-size: 1.1em;
+}
+
+table.bodyTable tr.a {
+  background-image: linear-gradient(45deg,#000000db, #666);
+  background-image: -webkit-linear-gradient(45deg,#000000db, #666);
+  color: #FFF;
+}
+table.bodyTable tr.a th{
+  background: #454545;
+  color: #FFF;
+}
+table.bodyTable tr.a:hover {
+  background-color: #eee;
+  color: #000;
+}
+table.bodyTable tr.b {
+  background-image: linear-gradient(45deg,#000000db, #666);
+  background-image: -webkit-linear-gradient(45deg,#000000db, #666);
+  color: #FFF;
+}
+table.bodyTable tr.b th{
+  background: #454545;
+  color: #FFF;
+}
+table.bodyTable tr.b:hover {
+  background-color: #eee;
+  color: #000;
+}
+table.bodyTable tr.b td a {
+  color: #b885ea;
+  font-weight: bold;
+  text-decoration: underline;
+}
+table.bodyTable tr.b td img {
+  width: 30px;
+  height: 25px;
+}
+table.bodyTable tr.a td a {
+  color: #b885ea;
+  font-weight: bold;
+  text-decoration: underline;
+}
+table.bodyTable tr.a td img {
+  width: 30px;
+  height: 25px;
+}
+.source {
+  border: 1px solid #999;
+}
+dl {
+  padding: 4px 4px 4px 6px;
+  border: 1px solid #aaa;
+  background-color: #ffc;
+}
+dt {
+  color: #333333;
+}
+#organizationLogo img, #projectLogo img, #projectLogo span{
+  margin: 8px;
+}
+#banner {
+  border-bottom: 1px solid #fff;
+}
+.errormark, .warningmark, .donemark, .infomark {
+  background: url(../images/icon_error_sml.gif) no-repeat;
+}
+
+.warningmark {
+  background-image: url(../images/icon_warning_sml.gif);
+}
+
+.donemark {
+  background-image: url(../images/icon_success_sml.gif);
+}
+
+.infomark {
+  background-image: url(../images/icon_info_sml.gif);
+}
+
+#navcolumn li>a {
+  color: #fff;
+}
+
+#navcolumn li.expanded strong {
+  background: #fff;
+  color: #333 !important;
+  display: block;
+  margin-left: -1em;
+  padding-left: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

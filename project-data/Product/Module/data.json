@@ -1,0 +1,23 @@
+{
+  "title": "app-config-server",
+  "titleDesc": "app-config-server module Description",
+  "childTitle": "Project Branches",
+  "childTitleDesc": "This module has the following branches:",
+  "navigation": [
+    {
+      "title": "release-v1",
+      "path": "feature-automation/index.html",
+      "desc": "release-v1 branch Desc"
+    },
+    {
+      "title": "master",
+      "path": "",
+      "desc": "master branch Desc"
+    },
+    {
+      "title": "develop",
+      "path": "",
+      "desc": "develop branch Desc"
+    }
+  ]
+}
